@@ -1,0 +1,23 @@
+[project]
+name = "recsys-craftyverse"
+version = "0.1.0"
+description = "Recommendation Engine for the craftyverse platform"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = ["pandas", "numpy", "scikit-learn", "typer", "pyyaml"]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit", # runs linters & hooks before each commit
+  "ruff",       # fast Python linter & formatter (like flake8 + black)
+  "mypy",       # type checking
+  "pytest",     # testing framework
+  "pytest-cov", # (optional) adds code coverage
+  "ipykernel",  # lets notebooks run in your virtualenv
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

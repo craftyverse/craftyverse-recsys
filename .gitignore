@@ -1,0 +1,67 @@
+# -----------------------------
+# Python & Virtual Environment
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+*.env
+
+# -----------------------------
+# Build & Distribution Artifacts
+# -----------------------------
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Test / Coverage / Logs
+# -----------------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+logs/
+*.log
+
+# -----------------------------
+# Data & Model Artifacts
+# -----------------------------
+data/
+artifacts/
+models/
+outputs/
+notebooks/.ipynb_checkpoints/
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.csv
+*.tsv
+*.gz
+*.zip
+
+# -----------------------------
+# OS & Misc
+# -----------------------------
+*.bak
+*.tmp
+*.orig
