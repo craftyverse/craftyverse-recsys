@@ -1,0 +1,14 @@
+train:
+  interactions_csv: null
+  user_col: null
+  item_col: null
+  weight_col: null
+  output:
+    run_name: als_baseline
+
+model:
+  type: implicit_als
+  factors: 32
+  regularization: 0.02
+  iterations: 5
+  alpha: 15.0

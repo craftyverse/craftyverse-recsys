@@ -1,0 +1,4 @@
+paths:
+  data_dir: data
+  artifacts_dir: artifacts
+random_seed: 42
