@@ -13,9 +13,11 @@ git clone https://github.com/craftyverse/craftyverse-recsys.git
 cd recsys
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create and activate a Python 3.12 virtual environment
 ```bash
-python3 -m venv .venv
+# pandas wheels are currently broken on CPython 3.13,
+# so stick to Python 3.12 for now.
+python -m venv .venv
 source .venv/bin/activate   # (zsh/bash)
 # or: source .venv/bin/activate.fish   # on fish shell
 ```
