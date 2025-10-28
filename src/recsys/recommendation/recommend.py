@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 def CF_cosine_recommender(user, user_similarity_matrix, ratings_matrix, n_recommendations=5):
     """
     User-Based Collaborative Filtering Recommender using Cosine Similarity.
@@ -37,3 +38,4 @@ def CF_cosine_recommender(user, user_similarity_matrix, ratings_matrix, n_recomm
     recommendations = sorted_recommendations.index[:n_recommendations].tolist()
 
     return recommendations
+

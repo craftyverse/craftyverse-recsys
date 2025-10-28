@@ -17,6 +17,7 @@ dev = [
   "pytest-cov", # (optional) adds code coverage
   "ipykernel",  # lets notebooks run in your virtualenv
   "pandas",
+  "torch",
 ]
 
 
