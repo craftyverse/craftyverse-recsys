@@ -1,12 +1,12 @@
 [project]
-name = "recsys-craftyverse"
+name = "recsys"
 version = "0.1.0"
-description = "Recommendation Engine for the craftyverse platform"
+description = "Recommendation Engine for the platform"
 readme = "README.md"
 # NOTE: pandas wheels currently break on CPython 3.13, so pin to <=3.12 for now.
 requires-python = ">=3.10,<3.13"
 
-dependencies = ["pandas", "numpy", "scikit-learn", "typer", "pyyaml"]
+dependencies = ["pandas", "torch", "numpy", "scikit-learn", "typer", "pyyaml"]
 
 [project.optional-dependencies]
 dev = [
